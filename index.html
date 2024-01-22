@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys -Home</title>
+    <!-- tailwind css and daisy ui cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn link -->
+    <script
+      src="https://kit.fontawesome.com/236e7d5b35.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css style  -->
+    <style>
+      .manrope-font {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="max-w-7xl mx-auto mt-6 manrope-font">
+      <nav>
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li class="ml-8 text-[#FF4240]"><a href="#">Home</a></li>
+                <li class="ml-8 hover:text-[#FF4240] duration-300">
+                  <a href="#">About</a>
+                </li>
+                <li class="ml-8 hover:text-[#FF4240] duration-300">
+                  <a href="#">Pages</a>
+                </li>
+                <li class="ml-8 hover:text-[#FF4240] duration-300">
+                  <a href="#">Blog</a>
+                </li>
+                <li class="ml-8 hover:text-[#FF4240] duration-300">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <h1 class="text-2xl lg:text-4xl manrope-font font-bold">
+              Hockey<span class="text-[#FF4240]">’</span>s
+            </h1>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal">
+              <li class="ml-6 text-[#FF4240]"><a href="#">Home</a></li>
+              <li class="ml-6 hover:text-[#FF4240] duration-300">
+                <a href="#">About</a>
+              </li>
+              <li class="ml-6 hover:text-[#FF4240] duration-300">
+                <a href="#">Pages</a>
+              </li>
+              <li class="ml-6 hover:text-[#FF4240] duration-300">
+                <a href="#">Blog</a>
+              </li>
+              <li class="ml-6 hover:text-[#FF4240] duration-300">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <i
+              class="fa-solid fa-magnifying-glass mr-4 cursor-pointer text-[#89898B] hidden lg:flex"
+            ></i>
+            <button
+              class="px-6 py-2 rounded-lg bg-[#FF4240] text-white hover:bg-black duration-300"
+            >
+              Get Ticket
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- banner section start -->
+      <section class="max-w-7xl mx-auto mt-6 manrope-font px-4">
+        <div class="carousel w-full lg:h-[550px] lg:rounded-2xl">
+          <div
+            id="slide1"
+            class="carousel-item relative w-full flex flex-col gap-7"
+          >
+            <img
+              src="Images/slider-1.png"
+              class="w-full md:h-[100%] h-[200px] rounded-2xl"
+              alt=""
+            />
+            <div
+              class="absolute flex justify-center top-40 md:justify-between transform -translate-y-1/2 left-5 right-5 md:top-1/2"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black mr-2 md:mr-0"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black ml-2 md:ml-0"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] lg:absolute lg:w-[550px] md:p-5 p-2 rounded-2xl lg:right-6 lg:bottom-6"
+            >
+              <h1 class="text-white text-xl lg:text-2xl font-semibold">
+                Meet all the heroes from the field
+              </h1>
+              <p class="text-[rgba(255,255,255,0.60)] py-3">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            </div>
+          </div>
+          <div
+            id="slide2"
+            class="carousel-item relative w-full flex flex-col gap-7"
+          >
+            <img
+              src="Images/slider-1.png"
+              class="w-full md:h-[100%] h-[200px] rounded-2xl"
+              alt=""
+            />
+            <div
+              class="absolute flex justify-center top-40 md:justify-between transform -translate-y-1/2 left-5 right-5 md:top-1/2"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black mr-2 md:mr-0"
+                >❮</a
+              >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black ml-2 md:ml-0"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] lg:absolute lg:w-[550px] md:p-5 p-2 rounded-2xl lg:right-6 lg:bottom-6"
+            >
+              <h1 class="text-white text-xl lg:text-2xl font-semibold">
+                Meet all the heroes from the field
+              </h1>
+              <p class="text-[rgba(255,255,255,0.60)] py-3">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            </div>
+          </div>
+          <div
+            id="slide3"
+            class="carousel-item relative w-full flex flex-col gap-7"
+          >
+            <img
+              src="Images/slider-1.png"
+              class="w-full md:h-[100%] h-[200px] rounded-2xl"
+              alt=""
+            />
+            <div
+              class="absolute flex justify-center top-40 md:justify-between transform -translate-y-1/2 left-5 right-5 md:top-1/2"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black mr-2 md:mr-0"
+                >❮</a
+              >
+              <a
+                href="#slide4"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black ml-2 md:ml-0"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] lg:absolute lg:w-[550px] md:p-5 p-2 rounded-2xl lg:right-6 lg:bottom-6"
+            >
+              <h1 class="text-white text-xl lg:text-2xl font-semibold">
+                Meet all the heroes from the field
+              </h1>
+              <p class="text-[rgba(255,255,255,0.60)] py-3">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            </div>
+          </div>
+          <div
+            id="slide4"
+            class="carousel-item relative w-full flex flex-col gap-7"
+          >
+            <img
+              src="Images/slider-1.png"
+              class="w-full md:h-[100%] h-[200px] rounded-2xl"
+              alt=""
+            />
+            <div
+              class="absolute flex justify-center top-40 md:justify-between transform -translate-y-1/2 left-5 right-5 md:top-1/2"
+            >
+              <a
+                href="#slide3"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black mr-2 md:mr-0"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black text-white border-none hover:bg-black ml-2 md:ml-0"
+                >❯</a
+              >
+            </div>
+            <div
+              class="bg-[#131318] lg:absolute lg:w-[550px] md:p-5 p-2 rounded-2xl lg:right-6 lg:bottom-6"
+            >
+              <h1 class="text-white text-xl lg:text-2xl font-semibold">
+                Meet all the heroes from the field
+              </h1>
+              <p class="text-[rgba(255,255,255,0.60)] py-3">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
