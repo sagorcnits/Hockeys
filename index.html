@@ -29,10 +29,44 @@
       .manrope-font {
         font-family: "Manrope", sans-serif;
       }
+
+      .progress-bar {
+        background: radial-gradient(
+            closest-side,
+            white 80%,
+            transparent 79% 100%
+          ),
+          conic-gradient(rgb(247, 19, 3) 87%, rgb(207, 205, 205) 0);
+      }
+
+      .progress-bar1 {
+        background: radial-gradient(
+            closest-side,
+            white 80%,
+            transparent 79% 100%
+          ),
+          conic-gradient(#49d293 95%, rgb(207, 205, 205) 0);
+      }
+      .progress-bar2 {
+        background: radial-gradient(
+            closest-side,
+            white 80%,
+            transparent 79% 100%
+          ),
+          conic-gradient(rgba(240, 138, 4, 0.836) 90%, rgb(207, 205, 205) 0);
+      }
+      .progress-bar3 {
+        background: radial-gradient(
+            closest-side,
+            white 80%,
+            transparent 79% 100%
+          ),
+          conic-gradient(#4c8df1 80%, rgb(207, 205, 205) 0);
+      }
     </style>
   </head>
   <body>
-    <header class="max-w-7xl mx-auto mt-6 manrope-font">
+    <header class="max-w-6xl mx-auto mt-6 manrope-font">
       <nav>
         <div class="navbar">
           <div class="navbar-start">
@@ -106,7 +140,7 @@
         </div>
       </nav>
       <!-- banner section start -->
-      <section class="max-w-7xl mx-auto mt-6 manrope-font px-4">
+      <section class="max-w-6xl mx-auto mt-6 manrope-font lg:px-0 px-4">
         <div class="carousel w-full lg:h-[550px] lg:rounded-2xl">
           <div
             id="slide1"
@@ -251,5 +285,128 @@
         </div>
       </section>
     </header>
+    <main>
+      <section class="max-w-6xl mx-auto mt-10 md:mt-20 manrope-font">
+        <h1 class="text-2xl md:text-4xl text-center font-semibold">
+          Professional Hockeys Club
+        </h1>
+        <p class="text-center py-4">
+          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+          placerat <br />
+          dolor. Purus urna in sit nullam proin.
+        </p>
+        <div
+          class="flex flex-col md:flex-row gap-6 justify-around manrope-font md:mt-10"
+        >
+          <div class="md:w-[250px] text-center py-4">
+            <div
+              class="progress-bar mx-auto flex justify-center items-center w-[100px] h-[100px] rounded-full"
+            >
+              <h1 class="text-2xl font-semibold">87%</h1>
+            </div>
+
+            <h2 class="text-xl font-semibold py-2">Prayer Facility</h2>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+
+          <div class="md:w-[250px] text-center py-4">
+            <div
+              class="progress-bar1 mx-auto flex justify-center items-center w-[100px] h-[100px] rounded-full"
+            >
+              <h1 class="text-2xl font-semibold">95%</h1>
+            </div>
+            <h2 class="text-xl font-semibold py-2">Experienced Coach</h2>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+
+          <div class="md:w-[250px] text-center py-4">
+            <div
+              class="progress-bar2 mx-auto flex justify-center items-center w-[100px] h-[100px] rounded-full"
+            >
+              <h1 class="text-2xl font-semibold">90%</h1>
+            </div>
+            <h2 class="text-xl font-semibold py-2">Senior Player</h2>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+
+          <div class="md:w-[250px] text-center py-4">
+            <div
+              class="progress-bar3 mx-auto flex justify-center items-center w-[100px] h-[100px] rounded-full"
+            >
+              <h1 class="text-2xl font-semibold">80%</h1>
+            </div>
+            <h2 class="text-xl font-semibold py-2">Training Ground</h2>
+            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Program Section start  -->
+      <section class="max-w-6xl mx-auto mt-10 md:mt-20 manrope-font p-4 lg:p-0">
+        <h1 class="text-2xl md:text-4xl text-center font-semibold">
+          Program Sections
+        </h1>
+        <p class="text-center py-4">
+          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+          placerat <br />
+          dolor. Purus urna in sit nullam proin.
+        </p>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:mt-10">
+          <div
+            class="bg-[url('Images/2.png')] bg-no-repeat bg-cover bg-[100%_100%] lg:h-[338px] text-white rounded-2xl overflow-hidden"
+          >
+            <div class="bg-[rgba(19,19,24,0.50)] p-5 h-full space-y-4 lg:px-8">
+              <h1 class="text-2xl font-bold lg:pt-28">Junior Program</h1>
+              <p>
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="px-6 py-2 bg-[#FF4240] rounded-lg hover:bg-black duration-300"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-[url('Images/3.png')] bg-no-repeat bg-cover bg-[100%_100%] lg:h-[338px] text-white rounded-2xl overflow-hidden"
+          >
+            <div class="bg-[rgba(19,19,24,0.50)] h-full space-y-4 p-5 lg:px-8">
+              <h1 class="text-2xl font-bold lg:pt-28">Teenager Program</h1>
+              <p>
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="px-6 py-2 bg-[#FF4240] rounded-lg hover:bg-black duration-300"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+          <div
+            class="lg:col-span-2 bg-[url('Images/4.png')] bg-no-repeat bg-cover bg-center lg:h-[440px] text-white rounded-2xl overflow-hidden relative"
+          >
+            <div class="bg-[rgba(19,19,24,0.50)] h-full p-5 lg:px-8">
+              <div class="lg:absolute bottom-8 left-8 lg:w-1/2 space-y-4">
+                <h1 class="text-2xl font-bold">Professional Program</h1>
+                <p>
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <button
+                  class="px-6 py-2 bg-[#FF4240] rounded-lg hover:bg-black duration-300"
+                >
+                  Register Now!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
