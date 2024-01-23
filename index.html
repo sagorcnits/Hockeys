@@ -705,9 +705,11 @@
           placerat <br />
           dolor. Purus urna in sit nullam proin.
         </p>
-        <div class="flex gap-6 lg:mt-4 border-t border-dashed lg:py-10 py-5">
+        <div
+          class="flex flex-col lg:flex-row gap-6 lg:mt-4 border-t border-dashed lg:py-10 py-5"
+        >
           <div
-            class="w-[474px] flex flex-col gap-5 p-5 border border-[rgba(19,19,24,0.10)] rounded-lg"
+            class="lg:w-[474px] flex flex-col gap-5 p-5 border border-[rgba(19,19,24,0.10)] rounded-lg"
           >
             <div class="bg-[rgba(188,237,109,0.10)] p-5 rounded-lg">
               <img src="Images/call.png" alt="" />
@@ -719,21 +721,23 @@
             <div class="bg-[rgba(253,221,95,0.10)] p-5 rounded-lg">
               <img src="Images/mail.png" alt="" />
               <p class="py-3 text-[rgba(19,19,24,0.40)]">
-                Phone Number : <br />
-                <a href="#" class="font-bold text-black">(+62) 123-321-543</a>
+                Email : <br />
+                <a href="#" class="font-bold text-black">hockeys@support.com</a>
               </p>
             </div>
             <div class="bg-[rgba(98,156,243,0.10)] p-5 rounded-lg">
               <img src="Images/map.png" alt="" />
               <p class="py-3 text-[rgba(19,19,24,0.40)]">
-                Phone Number : <br />
-                <a href="#" class="font-bold text-black">(+62) 123-321-543</a>
+                Location : <br />
+                <a href="#" class="font-bold text-black"
+                  >152/1 Mohakhali Wireless Gate</a
+                >
               </p>
             </div>
           </div>
 
-          <div class="w-[670px]">
-            <div class="grid grid-cols-2 gap-4">
+          <div class="lg:w-[670px]">
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
               <div>
                 <h1 class="py-2 font-semibold">Your Name</h1>
                 <input
@@ -767,9 +771,83 @@
                 />
               </div>
             </div>
+            <h1 class="py-4 font-semibold">Message</h1>
+            <textarea
+              class="w-[100%] h-[200px] lg:h-[250px] p-4 rounded-lg bg-[rgba(19,19,24,0.03)] resize-none outline-none"
+              placeholder="Write your message"
+            ></textarea>
+            <input
+              type="button"
+              value="Send Message"
+              class="bg-[#FF4240] p-3 w-full rounded-md hover:bg-black duration-300 cursor-pointer text-white font-semibold mt-4"
+            />
+          </div>
+        </div>
+        <div
+          class="text-center space-y-4 bg-[rgba(19,19,24,0.03)] py-5 rounded-lg"
+        >
+          <h2 class="font-semibold text-xl">Social Media</h2>
+          <div class="flex gap-5 justify-center">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
       </section>
     </main>
+    <footer
+      class="lg:py-14 bg-[#131318] manrope-font text-[rgba(255,255,255,0.60)] lg:mt-20"
+    >
+      <div
+        class="footer max-w-6xl mx-auto flex flex-col lg:flex-row justify-between"
+      >
+        <aside>
+          <h1 class="text-2xl font-semibold text-white">Get In Touch</h1>
+          <p>
+            Dit amet consectetur. Condimentum <br />
+            adipiscing aliquam turpis placerat dolor. Purus <br />
+            urna in sit nullam proin.
+          </p>
+          <div class="flex gap-4 pt-4">
+            <a href="#" class="text-[#FF4240]"
+              ><i class="fa-regular fa-envelope"></i></a
+            ><a href="#">hockeys@support.com</a>
+          </div>
+
+          <div class="flex gap-4">
+            <a href="#" class="text-[#FF4240]">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="#">(+62) 123-321-543</a>
+          </div>
+        </aside>
+        <div class="flex">
+          <nav>
+            <header class="text-white font-semibold pb-2">Company</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </nav>
+          <nav>
+            <header class="text-white font-semibold pb-2">Support</header>
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav>
+        </div>
+        <nav>
+          <header class="text-white font-semibold pb-2">Services</header>
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lesson</a>
+          <a class="link link-hover">Private Lesson</a>
+          <a class="link link-hover">Hockeys for kids</a>
+          <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
