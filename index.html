@@ -63,6 +63,10 @@
           ),
           conic-gradient(#4c8df1 80%, rgb(207, 205, 205) 0);
       }
+
+      footer p {
+        padding: 5px 0;
+      }
     </style>
   </head>
   <body>
@@ -111,7 +115,7 @@
             </h1>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal">
+            <ul class="menu menu-horizontal text-[16px]">
               <li class="ml-6 text-[#FF4240]"><a href="#">Home</a></li>
               <li class="ml-6 hover:text-[#FF4240] duration-300">
                 <a href="#">About</a>
@@ -787,7 +791,7 @@
           class="text-center space-y-4 bg-[rgba(19,19,24,0.03)] py-5 rounded-lg"
         >
           <h2 class="font-semibold text-xl">Social Media</h2>
-          <div class="flex gap-5 justify-center">
+          <div class="flex gap-5 justify-center text-2xl">
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -797,55 +801,54 @@
       </section>
     </main>
     <footer
-      class="lg:py-14 bg-[#131318] manrope-font text-[rgba(255,255,255,0.60)] lg:mt-20"
+      class="py-6 lg:py-14 bg-[#131318] manrope-font text-[rgba(255,255,255,0.60)] lg:mt-20 text-center lg:text-start"
     >
       <div
-        class="footer max-w-6xl mx-auto flex flex-col lg:flex-row justify-between"
+        class="md:footer max-w-6xl mx-auto flex flex-col lg:flex-row lg:justify-between justify-center items-center lg:space-y-0 space-y-6 lg:items-start"
       >
         <aside>
-          <h1 class="text-2xl font-semibold text-white">Get In Touch</h1>
-          <p>
+          <h2 class="text-2xl font-semibold text-white">Get In Touch</h2>
+          <p class="py-2">
             Dit amet consectetur. Condimentum <br />
             adipiscing aliquam turpis placerat dolor. Purus <br />
             urna in sit nullam proin.
           </p>
-          <div class="flex gap-4 pt-4">
+          <div class="flex gap-4 py-4 mx-auto justify-center lg:justify-start">
             <a href="#" class="text-[#FF4240]"
               ><i class="fa-regular fa-envelope"></i></a
             ><a href="#">hockeys@support.com</a>
           </div>
 
-          <div class="flex gap-4">
+          <div class="flex gap-4 mx-auto justify-center lg:justify-start">
             <a href="#" class="text-[#FF4240]">
               <i class="fa-solid fa-phone"></i>
             </a>
             <a href="#">(+62) 123-321-543</a>
           </div>
         </aside>
-        <div class="flex">
+        <div class="flex justify-around w-10/12 lg:w-1/2">
           <nav>
             <header class="text-white font-semibold pb-2">Company</header>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Leadership</a>
-            <a class="link link-hover">Careers</a>
-            <a class="link link-hover">News & Article</a>
-            <a class="link link-hover">Legal Notice</a>
+            <p><a class="link link-hover">About us</a></p>
+            <p><a class="link link-hover">Leadership</a></p>
+            <p><a class="link link-hover">Careers</a></p>
+            <p><a class="link link-hover">News & Article</a></p>
+            <p><a class="link link-hover">Legal Notice</a></p>
           </nav>
           <nav>
             <header class="text-white font-semibold pb-2">Support</header>
-            <a class="link link-hover">Help Center</a>
-            <a class="link link-hover">FAQ</a>
-            <a class="link link-hover">Ticket Support</a>
-            <a class="link link-hover">Contact Us</a>
+            <p><a class="link link-hover">Help Center</a></p>
+            <p><a class="link link-hover">FAQ</a></p>
+            <p><a class="link link-hover">Ticket Support</a></p>
+            <p><a class="link link-hover">Contact Us</a></p>
           </nav>
         </div>
         <nav>
           <header class="text-white font-semibold pb-2">Services</header>
-          <a class="link link-hover">Academy</a>
-          <a class="link link-hover">Group Lesson</a>
-          <a class="link link-hover">Private Lesson</a>
-          <a class="link link-hover">Hockeys for kids</a>
-          <a class="link link-hover">Hockeys for Adult</a>
+          <p><a class="link link-hover">Academy</a></p>
+          <p><a class="link link-hover">Private Lesson</a></p>
+          <p><a class="link link-hover">Hockeys for kids</a></p>
+          <p><a class="link link-hover">Hockeys for Adult</a></p>
         </nav>
       </div>
     </footer>
